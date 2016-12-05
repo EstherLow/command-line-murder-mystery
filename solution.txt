@@ -1,0 +1,511 @@
+1.The commands you used to get the solution (hint: run history for a list of the commands you ran).
+
+   50  cd ..
+   51  cd Downloads
+   52  mv World ~/
+   53  cd ~
+   54  ls -a
+   55  cd World
+   56  mkdir Antartica
+   57  ls -a
+   58  ls -a South America
+   59  ls -a South-America
+   60  ls -a South_America
+   61  mv /South_America/*/ North_America/ 
+   62  ls -a South_America
+   63  mv /World/South_America/* /World/North_America/
+   64  mv /South_America/* North America/
+   65  mv /South_America/*(D) /dst/
+   66  mv /South_America/*(D) /North_America/
+   67  mv /South_America/* /North_America/
+   68  ls -a
+   69  mv /South_America/* North_America/
+   70  cd South_America
+   71  mv Argentina North_America/
+   72  mv Brazil North_America/
+   73  mv Chile North_America/
+   74  ls -a
+   75  cd World
+   76  ls -a
+   77  cd ..
+   78  ls -a
+   79  ls -a North-America
+   80  ls -a North_America
+   81  cd ..
+   82  cd ~
+   83  cd Downloads
+   84  mv World ~
+   85  cd ~
+   86  pwd
+   87  ls -a
+   88  cd World
+   89  mkdir Antarctica
+   90  ls -a
+   91  ls -a South_America
+   92  mv Argentina North_America
+   93  ls -a South_America
+   94  cd South_America
+   95  mv Argentina North_America/
+   96  mv Brazil North-America/
+   97  mv Chile North_America/
+   98  cd World
+   99  cd ..
+  100  ls -a North_America
+  101  ls -a South_America
+  102  cd ~
+  103  cd Downloads
+  104  mv World ~
+  105  ls -a
+  106  cd ~
+  107  ls -a
+  108  cd World
+  109  mkdir Antarctica
+  110  cd South_America
+  111  ls -a
+  112  cd ~
+  113  mv /South_America/Argentina North_America
+  114  cd World
+  115  cd South_America
+  116  ls -a
+  117  mv Argentina ../North_America
+  118  mv Brazil ../North_America
+  119  mv Chile ../North_America
+  120  rm South_America
+  121  cd World
+  122  rm South_America
+  123  ls -a
+  124  cd World
+  125  ls -a
+  126  cd ~
+  127  cd World
+  128  ls -a
+  129  rm -r South_America
+  130  mv North_America Americas
+  131  ls -a
+  132  cd ~
+  133  pwd
+  134  ls -a ~/World/Americas
+  135  mkdir wdi-fundamentals
+  136  mv wdi-fundamentals fundamentals
+  137  ls -a
+  138  git --version
+  139  cd World
+  140  git init
+  141  cd ~
+  142  cd fundamentals
+  143  mkdir git-practice
+  144  cd git-practice
+  145  pwd
+  146  git init
+  147  ls -a
+  148  touch README.txt
+  149  git status
+  150  git add README.txt
+  151  git status
+  152  git commit -m "added README"
+  153  mkdir src
+  154  cd src
+  155  touch gitpractice1.txt
+  156  touch gitpractice2.txt
+  157  ls -a
+  158  git add src
+  159  cd ..
+  160  git add src
+  161  git status
+  162  git commit -m "added src dir"
+  163  open gitpractice1.txt
+  164  cd src
+  165  open gitpractice1.txt
+  166  git diff
+  167  git add gitpractice1.txt
+  168  git status
+  169  open gitpractice1.txt
+  170  git status
+  171  git diff
+  172  git add gitpractice1.txt
+  173  git diff
+  174  git status
+  175  git diff
+  176  git commit -m "added changes"
+  177  git log
+  178  git diff --cached
+  179  open gitpractice1.txt
+  180  git diff
+  181  git add gitpractice1.txt
+  182  git diff --cached
+  183  cd fundamentals
+  184  git clone https://github.com/EstherLow/wdi-fundamentals-memorygame.git
+  185  ls -a
+  186  cd wdi-fundamentals-memorygame
+  187  ls -a
+  188  ls -a starter-code
+  189  cd fundamentals
+  190  cd wdi-fundamentals-memorygame
+  191  cd fundamentals
+  192  ls -a
+  193  cd wdi-fundamentals-memorygame
+  194  git add -A
+  195  got commit -m 'created game logic'
+  196  git commit -m 'created game logic'
+  197  git push origin master
+  198  git push origin master
+  199  cd fundamentals
+  200  cd wdi-fundamentals-memorygame
+  201  git add -A
+  202  git commit -m "compare cards"
+  203  git config global user.email "phi21416@gmail.com"
+  204  git status
+  205  git commit -m 'compare cards'
+  206  git config --global user.email phi21416@gmail.com
+  207  git commit -m 'compare cards'
+  208  git push origin master
+  209  cd fundamentals
+  210  cd wdi-fundamentals-memorygame
+  211  git add -A
+  212  git commit -m "added all script"
+  213  git push origin master
+  214  ls
+  215  cd /
+  216  ls
+  217  cd ~
+  218  ls
+  219  ls -al
+  220  cd ga
+  221  ls
+  222  cd project1
+  223  atom hello.txt
+  224  sublime hello.txt
+  225  cd ~
+  226  atom hello.txt
+  227  cd ga
+  228  atom hello.txt
+  229  cs ~
+  230  cd ~
+  231  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+  232  cd /
+  233  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+  234  ls -a
+  235  cd ga
+  236  cd project1
+  237  atom hello.txt
+  238  cd ~
+  239  ls
+  240  cd Applications
+  241  ls -a
+  242  cd /
+  243  ls -a
+  244  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+  245  cd /
+  246  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+  247  cd /
+  248  ls -alt
+  249  cd usr
+  250  ls -a
+  251  cd local
+  252  ls
+  253  ls
+  254  cd GA
+  255  cd project1
+  256  atom hello.txt
+  257  subl hello.txt
+  258  cd /
+  259  mkdir my-favorite-things
+  260  cd ~
+  261  mkdir my-favorite-things
+  262  cd my-favorite-things
+  263  mkdir books
+  264  cd books
+  265  mkdir favorite author
+  266  rm favorite author
+  267  rm author
+  268  rm author/
+  269  mkdir jodi piccoult
+  270  mkdir jodi-piccoult
+  271  cd jodi-piccoult
+  272  touch sister-keeper.txt
+  273  atom sister-keeper.txt
+  274  atom sister-keeper.txt
+  275  touch lone-wolf.txt
+  276  atom lone-wolf.txt
+  277  cd ..
+  278  cd ..
+  279  mkdir movies
+  280  mkdir johnny depp
+  281  cd johnny depp
+  282  mkdir edward-scissorhands
+  283  cd movies
+  284  cd ..
+  285  cd ~
+  286  cd my-favorite-things
+  287  ls
+  288  cd movies
+  289  mkdir johnny-depp
+  290  cd johnny-depp
+  291  mkdir edward-scissorhands
+  292  cd..
+  293  cd ..
+  294  touch edward-scissorhands.txt
+  295  mv edward-scissorhands.txt edward-scissorhands/
+  296  mv edward-scissorhands.txt edward-scissorhands
+  297  mv edward-scissorhands.txt /edward-scissorhands/
+  298  mv /edward-scissorhands.txt /movies/edward-scissorhands
+  299  mv edward-scissorhands.txt /johnnydepp
+  300  mv edward-scissorhands.txt johnnydepp
+  301  mv edward-scissorhands.txt johnny-depp
+  302  mv edward-scissorhands.txt /johnny-depp
+  303  mv edward-scissorhands.txt /johnny-depp/
+  304  mv edward-scissorhands.txt /movies/johnny-depp/
+  305  cd ..
+  306  cd movies
+  307  ls a
+  308  ls -a
+  309  atom edward-scissorhands.txt
+  310  mv edward-scissorhands.txt edwardscissorhands.txt
+  311  cd ..
+  312  mkdir music
+  313  cd music
+  314  mkdir disco
+  315  cd disco
+  316  touch ymca.txt
+  317  rm ymca.txt
+  318  cd ..
+  319  rm disco
+  320  rm disco/
+  321  rm disco
+  322  ls -alt
+  323  sudo rm disco
+  324  mkdir creed
+  325  rm creed
+  326  mkdir one-direction the-strokes rihanna
+  327  cd one-direction
+  328  touch what-makes-u-beautiful.txt
+  329  cd one-direction
+  330  cp what-makes-you-beautiful.txt
+  331  cd ..
+  332  cd one-direction
+  333  cd music
+  334  cd ..
+  335  ls
+  336  rm -rf disco
+  337  ls
+  338  cd ..
+  339  cd movie
+  340  cd movies
+  341  ls
+  342  mv edward-scissorhands.txt johnny-depp/edward-scissorhands/
+  343  mv edward-scissorhands johnny-depp/edward-scissorhands/
+  344  touch test.txt
+  345  rm text.txt
+  346  cd johnny-depp
+  347  rm text.txt
+  348  rm test.txt
+  349  ls 
+  350  cd ..
+  351  ls
+  352  rm test.txt 
+  353  ls
+  354  cd ..
+  355  cd music
+  356  rm -rf disco
+  357  rm -rf creed
+  358  cd one-direction
+  359  ls
+  360  cp what-makes-u-beautiful.txt music/the-strokes/
+  361  cd music
+  362  cd ..
+  363  ls
+  364  cp what-makes-u-beautiful.txt the-strokes/
+  365  cd one-direction
+  366  cp what-makes-u-beautiful.txt ../the-strokes/
+  367  cd ../the-strokes/
+  368  ls
+  369  cd ../one-direction/
+  370  cp what-makes-u-beautiful.txt ../rihanna/
+  371  cd ../the-strokes/
+  372  mv what-makes-u-beautiful.txt story-of-my-life.txt
+  373  cd ../rihanna/
+  374  mv what-makes-u-beautiful.txt diamond.txt
+  375  ls
+  376  cd ..
+  377  cd ..
+  378  mkdir media
+  379  mv books media
+  380  cd media
+  381  ls
+  382  cd ..
+  383  mv movies media
+  384  mv music media
+  385  cp media 2015-media
+  386  cp -R media 2015-media/
+  387  cd 2015
+  388  cd 2015-media
+  389  mv books 2015-books
+  390  mv music 2015-music
+  391  mv movies 2015-movies
+  392  rm 2015-movies/*.txt
+  393  cd Downloads
+  394  mv html_top_ten_movies_table-master ~/GA
+  395  cd GA
+  396  cd ..
+  397  cd GA
+  398  atom skeleton.html
+  399  cd GA
+  400  git init
+  401  ls
+  402  git add -A
+  403  git status
+  404  git commit -m "completed assignment"
+  405  git push origin master
+  406  cd html_top_ten_movies
+  407  ls
+  408  cd html_top_ten_movies_table-master
+  409  git init
+  410  git add -A
+  411  git status
+  412  git push origin master
+  413  git commit -m "completed"
+  414  git push origin master
+  415  cd ~/
+  416  cd Downloads
+  417  mv -rf command-line-murder-mystery-master ~/GA/
+  418  mv command-line-murder-mystery-master ~/GA/
+  419  cd ~/GA/command-line-murder-mystery-master
+  420  git init
+  421  ls -a
+  422  cat instructions
+  423  touch solution.txt
+  424  open solution.txt
+  425  ls -a
+  426  cd mystery
+  427  pwd
+  428  ls -a
+  429  cat crimescene
+  430  grep 'CLUE' crimescene.txt
+  431  ls -a
+  432  grep 'CLUE' crimescene
+  433  grep 'CLUE' interviews
+  434  cd interviews
+  435  ls -a
+  436  cd ..
+  437  grep -r "CLUE" interviews
+  438  ls -a
+  439  grep "CLUE" memberships
+  440  grep -r "CLUE" memberships
+  441  ls -alt
+  442  ls -R
+  443  cd memberships
+  444  cat AAA
+  445  grep -x -f AAA Delta_SkyMiles Museum_of_Bash_History > common.txt
+  446  cat common.txt
+  447  rm common.txt
+  448  cd ..
+  449  ls -a
+  450  cd ..
+  451  ls -a
+  452  cat hint2
+  453  cat hint3
+  454  cd mystery
+  455  ls -a
+  456  grep -r "Annabel" people
+  457  grep -r "Annabel" vehicles
+  458  cat streets
+  459  cd streets
+  460  ls -a
+  461  cat Buckingham_Place
+  462  cd ..
+  463  ls -a
+  464  cd ..
+  465  hint5
+  466  cat hint5
+  467  cd mystery
+  468  head -n 173 streets/Mattpan_Street | -n 1
+  469  cd streets
+  470  head -n 173 streets/Mattapan_Street | tail -n 1
+  471  cd ..
+  472  head -n 173 streets/Mattapan_Street | tail -n 1
+  473  cd interview
+  474  ls -a
+  475  cd interviews
+  476  cat interview-9437737
+  477  cd ..
+  478  cd ..
+  479  cat hint6
+  480  ls -a
+  481  cat instructions
+  482  cd mystery
+  483  ls -a
+  484  head -n 40 streets/Hart_Place | tail -n 1
+  485  cat interviews-47246024
+  486  cat interview-47246024
+  487  cat interview/ interview-47246024
+  488  cat interviews/interview-47246024
+  489   head -n 179 streets/Buckingham_Place | tail -n 1
+  490  cat interviews/interview-699607
+  491  grep Honda vehicles
+  492  grep L337 vehicles
+  493  grep -rnw vehicles -e "Honda L337"
+  494  grep -rnw vehicles -e "Honda L337" > common.txt
+  495  cat common.txt
+  496  ls -a
+  497  cat common.txt
+  498  grep -h -R "Honda L337" vehicles
+  499  vehicles
+  500  head vehicles
+  501  grep -A 5 L337 vehicles
+  502  head people
+  503  ls -a
+  504  head memberships
+  505  cd memberships
+  506  head membership
+  507  ls -a
+  508  cat 1.txt
+  509  head 2.txt
+  510  head AAA
+  511  grep "Erika Owens" AAA
+  512  grep "Joe Germuska" AAA
+  513  grep "Joe Germuska"|"Jeremy Bowers"|"Jacqui Maher"
+  514  grep "Joe Germuska"|"Jeremy Bowers"|"Jacqui Maher" AAA
+  515  grep "Joe Germuska" AAA
+  516  grep "Jeremy Bowers" AAA
+  517  grep "Jacqui Maher" AAA
+  518  grep "Joe Gremuska" Delta_SkyMiles Museum_of_Bash_History
+  519  grep "Jeremy Bowers" Delta_SkyMiles Museum_of_Bash_History
+  520  grep "Jacqui Maher" Delta_SkyMiles Museum_of_Bash_History
+  521  grep "Joe Germuska" Delta_SkyMiles Museum_of_Bash_History
+  522  grep "Jacqui Maher" library.txt
+  523  grep "Jeremy Bowers" library.txt 
+  524  cd ..
+  525  cd ..
+  526  ls a
+  527  ls -a
+  528  cat hint8
+  529  cat AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers" 
+  530  cd mystery
+  531  cd memberships
+  532  cat AAA Delta_SkyMiles library.txt | "Jeremy Bowers"
+  533  cat AAA Delta_SkyMiles library.txt | grep "Jeremy Bowers"
+  534  cat AAA Delta_SkyMiles library.txt | grep "Jacqui Maher"
+  535  cd mystery
+  536  cd ..
+  537  ls -a
+  538  grep -R "Jeremy Bowers" people
+  539  grep -R "Jacqui Maher" people
+  540  cat head -n 284 streets/Dunstable_Road | tail -n 1 
+  541  head -n 284 streets/Dunstable Road | tail -n 1
+  542  head -n 284 streets/Dunstable_Road | tail -n 1
+  543  head -n 224 streets/Andover_Road | tail -n 1
+  544  cat interviews/interview-9620713
+  545  cat interviews/interview-904020
+  546  cd ..
+  547  cd ..
+  548  cd command-line-murder-mystery-master
+  549  history
+
+
+2.The name of the killer.
+
+Jeremy Bowers
+
+3.Commit your solution file
+Push your changes to your forked repo
+Create a pull request to submit your deliverable
